@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import { Parent } from "./TypeScript-Count/Parent";
+import { Main } from "./TypeScript-UseState/Main";
 
 ReactDOM.render(
 	<React.StrictMode>
-		<Parent />
+		<Main />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
