@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import { Main } from "./TypeScript-UseState/Main";
+import { GuestList } from "./TSX-useState/Parent";
 
 ReactDOM.render(
 	<React.StrictMode>
-		<Main />
+		<GuestList />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
