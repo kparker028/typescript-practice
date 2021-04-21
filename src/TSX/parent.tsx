@@ -1,5 +1,5 @@
 import React from "react";
-import { ChildFC } from "./child";
+import { ChildFC } from "./TSX-useState/child";
 
 export const Parent = () => {
 	return (
