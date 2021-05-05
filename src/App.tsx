@@ -1,12 +1,10 @@
 import React from "react";
-import { Ref } from "./TSX/TSX-Types-Refs/refs";
+import { Tapp } from "./TSX-Store/components/app";
 
 export const App = () => {
 	return (
 		<div>
-			<Ref />
+			<Tapp />
 		</div>
 	);
 };
-
-export default App;
